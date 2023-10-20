@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding-top: 70px;
+  height: 5000px;
+}
+
+section {
+  border: 1px solid blue;
+}
+
+footer {
+  border: 1px solid green;
+}
