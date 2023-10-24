@@ -14,9 +14,32 @@
     </h1>
   </header>
 
-  <main></main>
+  <main>
+    <div class="text-center bg-liight">
+      <form style="max-width: 350px; margin: auto;">
+        <img src="/images/logo.png" alt="JapanNow" class="bg-danger my-4 rounded" height="100px">
+        <h1 class="h3 mb-3 fw-normal">Faça o Login</h1>
+
+        <label for="email" class="visually-hidden">Email:</label>
+        <input type="email" name="email" id="email" class="form-control mb-3" placeholder="ex: mario@email.com" required autofocus>
+
+        <label for="password" class="visually-hidden">Senha: </label>
+        <input type="password" name="password" id="password" class="form-control" placeholder="senha" required>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remenber-me"> Lembrar-me
+          </label>
+        </div>
+
+        <div class="mt-3 mb-4 row">
+          <button class="btn btn-lg btn-danger col-12">Login</button>
+        </div>
+      </form>
+    </div>
+  </main>
   
-  <footer class="text-center text-white bg-danger mt-0">
+  <footer class="text-center text-white bg-danger mt-0 fixed-bottom">
     <div class="container pt-4">
       <section class="mb-4">
         <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button" data-mdb-ripple-color="dark">
